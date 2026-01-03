@@ -1,0 +1,12 @@
+.hero-greeting {
+  font-size: 1.25rem;
+  color: var(--text-secondary);
+  margin-bottom: var(--spacing-md);
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .hero-greeting {
+    font-size: 1rem;
+  }
+}

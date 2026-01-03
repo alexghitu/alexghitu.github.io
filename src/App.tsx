@@ -1,5 +1,5 @@
 import Navigation from './components/Navigation';
-import Hero from './components/Hero';
+import Hero from './components/sections/hero/Hero';
 import Projects from './components/sections/projects/Projects';
 import Education from './components/sections/education/Education';
 import Music from './components/sections/music/Music';
