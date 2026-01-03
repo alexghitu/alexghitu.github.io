@@ -1,0 +1,28 @@
+.music-platforms {
+  text-align: center;
+  margin-top: var(--spacing-2xl);
+}
+
+.platforms-label {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  margin-bottom: var(--spacing-md);
+}
+
+.platform-links {
+  display: flex;
+  gap: var(--spacing-lg);
+  justify-content: center;
+  align-items: center;
+}
+
+.platform-link {
+  color: var(--text-secondary);
+  transition: color 0.2s ease, transform 0.2s ease;
+  display: inline-flex;
+}
+
+.platform-link:hover {
+  color: var(--accent-blue);
+  transform: scale(1.1);
+}
