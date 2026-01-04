@@ -13,8 +13,8 @@ function App() {
       <Navigation />
       <ThemeToggle />
       <Hero />
-      <Projects />
       <Education />
+      <Projects />
       <Music />
       <Footer />
     </div>
