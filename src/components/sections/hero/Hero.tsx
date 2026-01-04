@@ -11,7 +11,7 @@ export default function Hero() {
         <div className="hero-content fade-in-up">
           <HeroGreeting greeting="Hello, I'm" />
           <HeroName name="Alexandru Ghitu" />
-          <HeroBio bio="Computer Science Student at Georgia Institute of Technology" />
+          <HeroBio bio="Machine Learning Student at Georgia Tech" />
         </div>
       </div>
       <ScrollIndicator />
