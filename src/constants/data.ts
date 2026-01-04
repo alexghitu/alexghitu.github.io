@@ -17,7 +17,7 @@ export const socialLinks: SocialLink[] = [
   {
     id: 'social-2',
     name: 'LinkedIn',
-    url: '#',
+    url: 'https://www.linkedin.com/in/alexandru-ghitu-108676226/',
     icon: 'linkedin'
   },
   {

@@ -1,6 +1,7 @@
 import HeroGreeting from './HeroGreeting';
 import HeroName from './HeroName';
 import HeroBio from './HeroBio';
+import HeroSocials from './HeroSocials';
 import ScrollIndicator from './ScrollIndicator';
 import './Hero.css';
 
@@ -12,6 +13,7 @@ export default function Hero() {
           <HeroGreeting greeting="Hello, I'm" />
           <HeroName name="Alexandru Ghitu" />
           <HeroBio bio="Machine Learning Student at Georgia Tech" />
+          <HeroSocials />
         </div>
       </div>
       <ScrollIndicator />
