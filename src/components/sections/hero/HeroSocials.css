@@ -1,8 +1,26 @@
 .hero-socials {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
   justify-content: center;
   margin-top: 2rem;
+}
+
+.social-link-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.social-label {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.social-link-wrapper:hover .social-label {
+  color: var(--accent-blue);
 }
 
 .social-button {
