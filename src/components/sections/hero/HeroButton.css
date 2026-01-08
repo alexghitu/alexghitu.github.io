@@ -12,11 +12,12 @@
 }
 
 .hero-button:hover {
-  background: var(--accent-blue);
-  color: white;
+  background: var(--accent-blue) !important;
+  color: #ffffff !important;
   border-color: var(--accent-blue);
   transform: translateY(-4px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  opacity: 1;
 }
 
 .hero-button:active {

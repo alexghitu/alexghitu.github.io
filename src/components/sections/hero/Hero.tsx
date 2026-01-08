@@ -14,8 +14,8 @@ export default function Hero() {
           <HeroName name="Alexandru Ghitu" />
           <HeroBio bio="Machine Learning Student at Georgia Tech" />
           <div className="hero-actions">
-            <HeroSocials />
             <HeroButton text="Learn More About Me" href="#about" />
+            <HeroSocials />
           </div>
         </div>
       </div>

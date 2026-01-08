@@ -9,32 +9,32 @@ export default function HeroSocials() {
   return (
     <div className="hero-socials">
       {githubLink && (
-        <div className="social-link-wrapper">
-          <a
-            href={githubLink.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="social-button"
-            aria-label="GitHub"
-          >
+        <a
+          href={githubLink.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="social-link-wrapper"
+          aria-label="GitHub"
+        >
+          <div className="social-button">
             <GitHubIcon size={24} />
-          </a>
+          </div>
           <span className="social-label">GitHub</span>
-        </div>
+        </a>
       )}
       {linkedinLink && (
-        <div className="social-link-wrapper">
-          <a
-            href={linkedinLink.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="social-button"
-            aria-label="LinkedIn"
-          >
+        <a
+          href={linkedinLink.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="social-link-wrapper"
+          aria-label="LinkedIn"
+        >
+          <div className="social-button">
             <LinkedInIcon size={24} />
-          </a>
+          </div>
           <span className="social-label">LinkedIn</span>
-        </div>
+        </a>
       )}
     </div>
   );
