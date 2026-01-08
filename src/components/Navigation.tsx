@@ -2,6 +2,7 @@ import { useState, useEffect, memo, useCallback } from 'react';
 import { navigationLinks } from '../constants/data';
 import { SCROLL_THRESHOLD } from '../utils/constants';
 import { classNames } from '../utils/classNames';
+import ThemeToggle from './ThemeToggle';
 import './Navigation.css';
 
 function Navigation() {
@@ -28,6 +29,7 @@ function Navigation() {
               {link.label}
             </a>
           ))}
+          <ThemeToggle />
         </div>
       </div>
     </nav>

@@ -1,8 +1,5 @@
 .theme-toggle {
-  position: fixed;
-  top: var(--spacing-lg);
-  right: var(--spacing-lg);
-  z-index: 1000;
+  position: relative;
   background: var(--blur-bg);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
@@ -61,11 +58,6 @@
 }
 
 @media (max-width: 768px) {
-  .theme-toggle {
-    top: var(--spacing-md);
-    right: var(--spacing-md);
-  }
-
   .toggle-track {
     width: 52px;
     height: 28px;
