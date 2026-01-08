@@ -12,6 +12,15 @@
   margin: 0 auto;
 }
 
+.hero-actions {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
 @media (max-width: 768px) {
   .hero {
     padding-top: 10vh;

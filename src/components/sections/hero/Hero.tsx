@@ -13,8 +13,10 @@ export default function Hero() {
           <HeroGreeting greeting="Hello, I'm" />
           <HeroName name="Alexandru Ghitu" />
           <HeroBio bio="Machine Learning Student at Georgia Tech" />
-          <HeroSocials />
-          <HeroButton text="Learn More About Me" href="#about" />
+          <div className="hero-actions">
+            <HeroSocials />
+            <HeroButton text="Learn More About Me" href="#about" />
+          </div>
         </div>
       </div>
     </section>
