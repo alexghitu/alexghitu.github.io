@@ -48,7 +48,7 @@ export const platformLinks: PlatformLink[] = [
 
 export const navigationLinks = [
   { id: 'nav-1', label: 'Home', href: '#home' },
-  { id: 'nav-2', label: 'Projects', href: '#projects' },
-  { id: 'nav-3', label: 'Education', href: '#education' },
+  { id: 'nav-2', label: 'About', href: '#about' },
+  { id: 'nav-3', label: 'Projects', href: '#projects' },
   { id: 'nav-4', label: 'Music', href: '#music' },
 ];

@@ -1,0 +1,16 @@
+.about {
+  background: var(--bg-primary);
+}
+
+.about-content {
+  display: grid;
+  gap: var(--spacing-xl);
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .about-content {
+    gap: var(--spacing-lg);
+  }
+}
